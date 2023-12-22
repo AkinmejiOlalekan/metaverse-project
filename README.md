@@ -8,7 +8,7 @@ manager has shared some csv files with you containing information needed to answ
 questions for your company executives. Use the following instructions to load and analyse the
 data to help answer relevant business questions.
 
-## Intructions
+## Instructions
 
 ### Task 1 - setting up the database
 
@@ -42,18 +42,3 @@ Create a python script with using the following convention:
     - Start the script with a doc block containing the email address you use at altschool
     - Each question’s SQL statement should be added to a variable representing the question
 number like in the image below
-
-
-## Scoring Criteria
-
-- The script submitted by each student would be graded using custom unit tests. This
-means that it’s important to adhere strictly to instructions to pass the test
-- Ensure your queries reference tables using schema_name.table_name format for
-example select * from raw.transactions
-- Return the columns for each query with the exact column names highlighted in the
-question and in the exact order highlighted for each question (please don’t do ITK, stick
-to the instructions strictly else you may not get the result you expect.)
-- Ensure you name your python file as instructed, do not use hyphens! Use underscores,
-again, you’re advised to adhere strictly to instructions.
-- A sample submission file will be attached to the assessment, do well to use it for
-guidance and rename the file to your own name when submitting
